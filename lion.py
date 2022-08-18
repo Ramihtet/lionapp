@@ -19,7 +19,7 @@ def respond():
     elif str(name).isdigit():
         response["ERROR"] = "The name can't be numeric. Please send a string."
     else:
-        if name == "lion"
+        if name == "lion":
             response["MESSAGE"] = f"here is your link: https://drive.google.com/drive/folders/1WePwA3fyyUBki_ndp60pEBjXiNRivTbM?usp=sharing"
 
     # Return the response in json format
