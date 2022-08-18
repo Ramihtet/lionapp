@@ -20,7 +20,7 @@ def respond():
         response["ERROR"] = "The name can't be numeric. Please send a string."
     else:
         if name == "lion":
-            response["MESSAGE"] = f"here is your link: https://drive.google.com/drive/folders/1WePwA3fyyUBki_ndp60pEBjXiNRivTbM?usp=sharing"
+            response["MESSAGE"] = f"The password is: lion and here is your link: https://drive.google.com/drive/folders/1WePwA3fyyUBki_ndp60pEBjXiNRivTbM?usp=sharing"
 
     # Return the response in json format
     return jsonify(response)
