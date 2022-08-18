@@ -19,7 +19,8 @@ def respond():
     elif str(name).isdigit():
         response["ERROR"] = "The name can't be numeric. Please send a string."
     else:
-        response["MESSAGE"] = f"Welcome {name} to our awesome API!"
+        if name == "rima"
+            response["MESSAGE"] = f"here is your link: https://drive.google.com/drive/folders/1WePwA3fyyUBki_ndp60pEBjXiNRivTbM?usp=sharing"
 
     # Return the response in json format
     return jsonify(response)
